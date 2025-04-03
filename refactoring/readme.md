@@ -37,4 +37,45 @@
     ```
 ___
 
+### 1.2 Participación en proyectos
+
+Dentro del ejemplo propuesto, se puede ver que el Bad Smell presente es el **Feature Envy**. Esto se debe a que la clase `Persona` usa datos de `Proyecto` para poder evaluar si dicha persona existe o no en un proyecto, produciendo un código reiterativo.
+Esto se soluciona si el análisis lo hacemos desde `Proyecto`, dado que no hace falta pasar el proyecto para evaluar.
+En conclusión, esta bien aplicado el refactoring.
+
+___
+
+### 1.3 Cálculos
+
+```java
+public void imprimirValores() {
+  int totalEdades = 0;
+  double promedioEdades = 0;
+  double totalSalarios = 0;
+
+  for (Empleado empleado : personal) {
+    totalEdades = totalEdades + empleado.getEdad();
+    totalSalarios = totalSalarios + empleado.getSalario();
+  }
+
+  promedioEdades = totalEdades / personal.size();
+  String message = String.format("El promedio de las edades es %s y el total de
+salarios es %s", promedioEdades, totalSalarios);
+
+  System.out.println(message);
+}
+```
+
+El siguiente código propuesto presenta los siguientes bad smells:
+* **Long Method**: el método posee declaraciones de variables innecesarias, que se podrían ahorrar usando la API `Stream` de las Collections.
+
+El código corregido sería el siguiente:
+
+```java
+public void imprimirValores() {
+
+  System.out.println("El promedio de las edades es". personal.stream().mapToDouble(empleado->empleado.getEdad().average().orElse(0) ." y el total de salarios es ". personal.stream().mapToDouble(empleado->empleado.getSalario()).sum());
+}
+```
+
 </details>
