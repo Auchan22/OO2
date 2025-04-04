@@ -259,7 +259,5 @@
       }
   ```
 
-  * **Lazy Class**: la clase `EmpleadoPasante` es una clase que existe, pero no tiene un proposito ni lógica propia como para mantenerla. **TODO:** como se resuelve??
-  * **Duplicated Code**: tanto la clase `EmpleadoPlanta` como `EmpleadoTemporario` poseen código duplicado en lo que corresponde a `aportes()`. Un refactoring posible es `Pull Up Method`, pero no considero que sea conveniente crear una clase intermedia que tenga este método para luego ser heredado.
-  
-* **Duplicated Code**: todas las clases hijas presentan el metodo `sueldo()`, por lo que se podría aplicar `Pull Up`, llevando 
+* **Lazy Class**: la clase `EmpleadoPasante` es una clase que existe, pero no tiene un proposito ni lógica propia como para mantenerla. **TODO:** como se resuelve??
+* **Duplicated Code**: tanto la clase `EmpleadoPlanta` como `EmpleadoTemporario` poseen código duplicado en lo que corresponde a `aportes()`. Un refactoring posible es `Pull Up Method`, pero no considero que sea conveniente crear una clase intermedia que tenga este método para luego ser heredado.
