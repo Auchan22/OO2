@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce163a75-d95f-4f8f-8d2b-a436894619c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Pasante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Personal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Planta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/test/java/ar/edu/unlp/info/oo2/ejercicio_2/PersonalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoStreamAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/test/java/oo2/ejercicio2/MediaPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/FinishedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/InProgressState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/PausedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/PendingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/ToDoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/test/java/ar/edu/unlp/info/oo2/ejercicio_2/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oo2/ejercicio2/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/maven/ar.edu.unlp.info.oo2/ejercicio_2/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/maven/ar.edu.unlp.info.oo2/ejercicio_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/test-classes/ar/edu/unlp/info/oo2/ejercicio_2/PersonaTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2vSon1uOZ0ZTZwfJCYoWuJsNCzZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce163a75-d95f-4f8f-8d2b-a436894619c1" name="Changes" comment="" />
+      <created>1744148002018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744148002018</updated>
+      <workItem from="1744148003069" duration="1428000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

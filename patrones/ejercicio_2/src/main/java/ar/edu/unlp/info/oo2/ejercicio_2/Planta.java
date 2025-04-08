@@ -1,19 +1,19 @@
 package ar.edu.unlp.info.oo2.ejercicio_2;
 
-public class Temporario extends Personal{
-    private int cantHoras;
+public class Planta extends Personal{
     private boolean casado;
     private int cantHijos;
+    private int aniosAntiguedad;
 
-    public Temporario(int cantHoras, boolean casado, int cantHijos) {
-        this.cantHoras = cantHoras;
+    public Planta(boolean casado, int cantHijos, int aniosAntiguedad) {
         this.casado = casado;
         this.cantHijos = cantHijos;
+        this.aniosAntiguedad = aniosAntiguedad;
     }
 
     @Override
     public int basico() {
-        return 20000 + this.cantHoras*300;
+        return 50000;
     }
 
     @Override
@@ -21,6 +21,7 @@ public class Temporario extends Personal{
         int total = 0;
         if(this.casado) total += 5000;
         total += this.cantHijos * 2000;
+        total += this.aniosAntiguedad * 2000;
         return total;
     }
 }
