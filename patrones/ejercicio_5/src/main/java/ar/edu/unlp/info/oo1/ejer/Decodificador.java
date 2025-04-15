@@ -13,8 +13,14 @@ public class Decodificador {
 		this.peliculasReproducidas = new ArrayList<Pelicula>();
 	}
 	
-	public void sugerir() {
-		this.strategy.sugerir(grillaPeliculas, peliculasReproducidas);
+	public void agegarPelicula(Pelicula p) {
+		this.grillaPeliculas.add(p);
+	}
+	
+	public void sugerir() throws IllegalAccessException {
+		if(this.strategy == null) throw new IllegalAccessException("No hay una estrategía configurada");
+		List<Pelicula> sugerencias = this.strategy.sugerir(grillaPeliculas, peliculasReproducidas);
+		sugerencias.forEach(p -> System.out.println(p.toString()));
 	};
 	
 	public void imprimirGrilla() {

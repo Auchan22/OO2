@@ -1,20 +1,22 @@
 package ar.edu.unlp.info.oo1.ejer;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Pelicula {
 	private String titulo;
 	private int anio_estreno;
 	private double puntaje;
-	private List<Pelicula> peliculasSimilares;
+	private Set<Pelicula> peliculasSimilares;
 	
 	
-	public Pelicula(String titulo, int anio_estreno, double puntaje) {
+	public Pelicula(String titulo, double puntaje, int anio_estreno) {
 		this.titulo = titulo;
 		this.anio_estreno = anio_estreno;
 		this.puntaje = puntaje;
-		this.peliculasSimilares = new ArrayList<Pelicula>();
+		this.peliculasSimilares = new HashSet<Pelicula>();
 	}
 	
 	public String getTitulo() {
@@ -38,9 +40,19 @@ public class Pelicula {
 	public List<Pelicula> getPeliculasSimilares() {
 		return new ArrayList<Pelicula>(peliculasSimilares);
 	}
-	public void setPeliculasSimilares(List<Pelicula> peliculasSimilares) {
+	public void setPeliculasSimilares(Set<Pelicula> peliculasSimilares) {
 		this.peliculasSimilares = peliculasSimilares;
 	}
+	
+    public void agregarSimilar(Pelicula otra) {
+        this.peliculasSimilares.add(otra);
+        otra.peliculasSimilares.add(this); // relación recíproca
+    }
+	
+    @Override
+    public String toString() {
+        return titulo + " (" + anio_estreno + ")";
+    }
 	
 	
 }
