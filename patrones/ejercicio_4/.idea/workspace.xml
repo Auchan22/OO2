@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce163a75-d95f-4f8f-8d2b-a436894619c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Pasante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Personal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Planta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_2/src/test/java/ar/edu/unlp/info/oo2/ejercicio_2/PersonalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/main/java/oo2/ejercicio2/VideoStreamAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio_3/src/test/java/oo2/ejercicio2/MediaPlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/FinishedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/InProgressState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/PausedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/PendingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicio2/ToDoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio_2/src/main/java/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/src/test/java/ar/edu/unlp/info/oo2/ejercicio_2/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oo2/ejercicio2/PersonaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/maven/ar.edu.unlp.info.oo2/ejercicio_2/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/META-INF/maven/ar.edu.unlp.info.oo2/ejercicio_2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Empleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio_2/target/classes/ar/edu/unlp/info/oo2/ejercicio_2/Temporario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio_2/target/test-classes/ar/edu/unlp/info/oo2/ejercicio_2/PersonaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vSon1uOZ0ZTZwfJCYoWuJsNCzZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,6 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Facultad/OO2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744148002018</updated>
-      <workItem from="1744148003069" duration="1428000" />
+      <workItem from="1744148003069" duration="1524000" />
+      <workItem from="1745448856364" duration="28000" />
     </task>
     <servers />
   </component>
