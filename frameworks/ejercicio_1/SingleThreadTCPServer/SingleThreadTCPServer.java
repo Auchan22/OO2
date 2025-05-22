@@ -9,12 +9,15 @@ public abstract class SingleThreadTCPServer {
 
     public abstract void handleMessage(String message, PrintWriter out);
 
+    /** Hook: permite definir la condición de cierre de sesión */
+    protected boolean shouldCloseSession(String message) {
+        return message.equalsIgnoreCase("bye");
+    }
+
     public final void startLoop(String[] args) {
         checkArguments(args);
-
         int portNumber = Integer.parseInt(args[0]);
 
-    
         try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
             displaySocketInformation(portNumber);
             while (true) {
@@ -54,11 +57,11 @@ public abstract class SingleThreadTCPServer {
     }
 
     protected void displayUsage() {
-        System.err.println("Usage: java"+this.getClass().getName() +"<port number>");
+        System.err.println("Usage: java " + this.getClass().getName() + " <port number>");
     }
 
-    protected void beforeConnection(Socket clientSocket) {
-        System.out.println("Received message: " + inputLine + " from "
+    protected void beforeConnection(String message, Socket clientSocket) {
+        System.out.println("Received message: \"" + message + "\" from "
                 + clientSocket.getInetAddress().getHostAddress() + ":" + clientSocket.getPort());
     }
 
@@ -67,26 +70,27 @@ public abstract class SingleThreadTCPServer {
                 + clientSocket.getPort());
     }
 
-    
-
-    private final void handleClient(Socket clientSocket) {
-        
+    private void handleClient(Socket clientSocket) {
         try (
                 PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));) {
+                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))
+        ) {
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
-                this.beforeConnection();
-                
-                if (inputLine.equalsIgnoreCase("")) {
-                    break; // Client requested to close the connection
+                beforeConnection(inputLine, clientSocket);
+
+                if (shouldCloseSession(inputLine)) {
+                    out.println("Sesión terminada.");
+                    break;
                 }
+
                 handleMessage(inputLine, out);
             }
 
         } catch (IOException e) {
             System.err.println("Problem with communication with client: " + e.getMessage());
         } finally {
+            afterConnection(clientSocket);
             try {
                 clientSocket.close();
             } catch (IOException e) {

@@ -8,9 +8,12 @@ public class EchoServer extends SingleThreadTCPServer {
     }
 
     public static void main(String[] args) {
-
         new EchoServer().startLoop(args);
+    }
 
+    @Override
+    protected boolean shouldCloseSession(String message) {
+        return message.equalsIgnoreCase("CHAUCHI");
     }
 
 }
