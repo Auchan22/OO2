@@ -1,0 +1,32 @@
+may 22, 2025 11:20:44 A. M. ar.edu.unlp.oo1.ejercicio1.app.Ejercicio1Application$1 run
+INFO: Inicio de aplicacion...
+may 22, 2025 11:20:50 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto h
+may 22, 2025 11:20:50 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto ho
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hol
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola 
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola m
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola mu
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola mun
+may 22, 2025 11:20:51 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola mund
+may 22, 2025 11:20:52 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl setText
+INFO: Se escribio el texto hola mundo
+may 22, 2025 11:20:54 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+INFO: Se dio like
+may 22, 2025 11:20:55 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+INFO: Se dio like
+may 22, 2025 11:20:55 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+INFO: Se dio like
+may 22, 2025 11:20:56 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+INFO: Se dio like
+may 22, 2025 11:20:57 A. M. ar.edu.unlp.oo1.ejercicio1.impl.WallPostImpl like
+INFO: Se dio like
