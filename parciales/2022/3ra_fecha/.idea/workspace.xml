@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="667b77f6-328b-4986-96a8-0cc17475c04c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Completa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Definitiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/EstadoExcursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Excursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Provisoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/main/java/oo2/ejercicios/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1ra_fecha/src/test/java/oo2/ejercicios/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Cancelado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Confirmada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/EnConstruccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/EnEvaluacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Etapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oo2/ejercicios/Proyecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oo2/ejercicios/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Bolsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Objeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/main/java/oo2/ejercicios/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2do_recuperatorio_2024/ejercicio_1/src/test/java/oo2/ejercicios/PersonaTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2y3nWI461MGt6qBOa5R3HTGUQzt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/agust/.m2/repository",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="667b77f6-328b-4986-96a8-0cc17475c04c" name="Changes" comment="" />
+      <created>1749072156006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749072156006</updated>
+      <workItem from="1749072157080" duration="2395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
